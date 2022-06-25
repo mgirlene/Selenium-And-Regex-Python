@@ -1,13 +1,1 @@
-{
-    "nome_pagador": "MARIA GIRLENE LUCAS DA SILVA",
-    "numero_cliente": "50301063",
-    "cpf_cliente": "619.070.053-58",
-    "cep_cliente": "63430000",
-    "cnpj_companhia": "07.047.251/0001",
-    "cgf_companhia": "06.105.848-3",
-    "data_vencimento": "25/06/2022",
-    "total": "61,98",
-    "data_emissao": "04/05/2022",
-    "leitura_anterior": "05/04/2022",
-    "leitura_atual": "04/05/2022"
-}
+{"nome_pagador": "MARIA GIRLENE LUCAS DA SILVA", "numero_cliente": "50301063", "cpf_cliente": "619.070.053-58", "cep_cliente": "63430000", "cnpj_companhia": "07.047.251/0001", "cgf_companhia": "06.105.848-3", "data_vencimento": "25/06/2022", "total": "61,98", "data_emissao": "04/05/2022", "leitura_anterior": "05/04/2022", "leitura_atual": "04/05/2022"}

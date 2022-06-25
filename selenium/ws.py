@@ -142,18 +142,17 @@ def convert_to_json(dicionario,nome_arquivo):
             json.dump(dicionario, data)
 
         
-# navegador = webdriver.Chrome()
-# ws = WebScraping(navegador)
-# ws.navigate()
-# dict_noticias = ws.noticias_nadic()
-# navegador.quit()
-# ws.convert_to_json(dict_noticias)
+navegador = webdriver.Chrome()
+ws = WebScraping(navegador)
+ws.navigate()
+dict_noticias = ws.noticias_nadic()
+navegador.quit()
 
-# dict_noticia1 = regex_txt1()
-# convert_to_json(dict_noticia1,"noticia1.json")
+dict_noticia1 = regex_txt1()
+convert_to_json(dict_noticia1,"noticia1.json")
 
-# dict_noticia2 = regex_txt2()
-# convert_to_json(dict_noticia2,"noticia2.json")
+dict_noticia2 = regex_txt2()
+convert_to_json(dict_noticia2,"noticia2.json")
 
 dict_noticia3 = regex_txt3()
 convert_to_json(dict_noticia3,"noticia3.json")
